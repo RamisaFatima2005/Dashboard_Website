@@ -12,12 +12,12 @@ import { RevenueChartSkeleton,
   CardsSkeleton} from '@/app/ui/skeletons';
  
 export default async function Page() {
-  const {
+  /*const {
     numberOfInvoices,
     numberOfCustomers,
     totalPaidInvoices,
     totalPendingInvoices,
-  } = await fetchCardData();
+  } = await fetchCardData();*/
  
   return (
     <main>
