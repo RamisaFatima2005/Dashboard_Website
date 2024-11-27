@@ -25,7 +25,6 @@ export function UpdateInvoice({ id }: { id: string }) {
   );
 }
 
-
 export function DeleteInvoice({ id }: { id: string }) {
   const deleteInvoiceWithId = deleteInvoice.bind(null, id);
   return (
@@ -35,7 +34,7 @@ export function DeleteInvoice({ id }: { id: string }) {
         <span className="sr-only">Delete</span>
         <TrashIcon className="w-5" />
       </button>
-      </form>
+    </form>
     </>
   );
 }
