@@ -83,6 +83,7 @@ function PaginationNumber({
       'text-gray-300': position === 'middle',
     },
   );
+
   return isActive || position === 'middle' ? (
     <div className={className}>{page}</div>
   ) : (
@@ -97,7 +98,6 @@ function PaginationArrow({
   direction,
   isDisabled,
 }: {
-
   href: string;
   direction: 'left' | 'right';
   isDisabled?: boolean;
@@ -124,6 +124,6 @@ function PaginationArrow({
   ) : (
     <Link className={className} href={href}>
       {icon}
-    </Link>
-  );
+    </Link>
+  );
 }
